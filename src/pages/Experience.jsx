@@ -6,37 +6,37 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
+const style = { fontSize: "1.4em" };
 
 const Experience = () => {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#2c5364">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014 - 2017"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#2c5364", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Maharshi Dayanand University, Ajmer, India
           </h3>
 
-          <p style={{ fontSize: "1.5rem" }}>
-            {" "}
+          <h4 style={style} className="vertical-timeline-element-subtitle">
             Bachelor's degree in Computer science
-          </p>
+          </h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2018 - 2021"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#2c5364", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             SDH Institute, Singapore
           </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
+          <h4 style={style} className="vertical-timeline-element-subtitle">
             Management and business tourism
           </h4>
 
@@ -44,35 +44,34 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2018 - 2021"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          date="2022 - 2023"
+          iconStyle={{ background: "#2c5364", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            SDH Institute, Singapore
+            Scrimba, E-Learning
           </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
-            Management and business tourism
+          <h4 style={style} className="vertical-timeline-element-subtitle">
+            Front end developer career path
           </h4>
 
-          <p> Advance diploma </p>
+          <p> advance certificate </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2018 - 2021"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          date="2022 - 2023"
+          iconStyle={{ background: "#2c5364", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            SDH Institute, Singapore
-          </h3>
+          <h3 className="vertical-timeline-element-title">Udemy,E-Learning</h3>
 
           <h4 className="vertical-timeline-element-subtitle">
-            Management and business tourism
+            javaScript,HTML5,CSS3,React,react redux,redux toolkit, git and
+            gitHub
           </h4>
 
-          <p> Advance diploma </p>
+          <p> advance certificate </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -95,15 +94,10 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Front end developer
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
-          </p>
+          <h4 className="vertical-timeline-element-subtitle">poznan,poland</h4>
+          <p>Non commercial experience</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

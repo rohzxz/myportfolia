@@ -1,7 +1,15 @@
 import "../styles/home.css";
 import React from "react";
-import {socialLinks} from '../components/data'
-
+import { socialLinks } from "../components/data";
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiMui,
+  SiHtml5,
+  SiCss3,
+  SiTypescript,
+  SiExpress,
+} from "react-icons/si";
 
 const Home = () => {
   return (
@@ -12,7 +20,7 @@ const Home = () => {
           <p>A software Developer with a passion for learning and creating.</p>
           {socialLinks.map(({ id, href, icon }) => {
             return (
-              <a key={id} href={href}>
+              <a className="icons" key={id} href={href}>
                 {icon}
               </a>
             );
@@ -34,14 +42,28 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>ReactJS,VanillaJS,MaterialUI,tailwindCSS</span>
+            <div className="icons-react">
+              <FaReact size="2.3em" />
+              <SiMui size="2.3em" />
+            </div>
+            <span>ReactJS,VanillaJS,MaterialUI</span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
+            <div>
+              <FaNodeJs size="2em" />
+              <SiExpress size="2em" />
+            </div>
             <span>NodeJS,ExpressJS</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
+            <div>
+              <SiJavascript size="2em" />
+              <SiHtml5 size="2em" />
+              <SiCss3 size="2em" />
+              <SiTypescript size="2em" />
+            </div>
             <span>JavaScript,HTML5,CSS3,typeScript</span>
           </li>
         </ol>

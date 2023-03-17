@@ -2,7 +2,8 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
+  /* color: #3e497a; */
+  color: #2c5364;
 }
 
 .about {
@@ -13,16 +14,28 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+
+  /* background-color: #21325e; */
   color: #f0f0f0;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 4rem;
-  color: #e9d35b;
- 
-  
+  color: #f0e87b;
 }
 
 .about .prompt {
@@ -45,7 +58,8 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  /* color: #3e497a; */
+  color: #2c5364;
 }
 
 .skills .list {
