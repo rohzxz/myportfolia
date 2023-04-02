@@ -1,4 +1,4 @@
-import "../styles/home.css";
+import "../styles/Home.css";
 import React from "react";
 import { socialLinks } from "../components/data";
 import { FaReact, FaNodeJs } from "react-icons/fa";
