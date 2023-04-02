@@ -4,8 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from "@mui/icons-material/Work";
+import { MdSchool, MdWork } from "react-icons/md";
 const style = { fontSize: "1.4em" };
 
 const Experience = () => {
@@ -16,7 +15,7 @@ const Experience = () => {
           className="vertical-timeline-element--education"
           date="2014 - 2017"
           iconStyle={{ background: "#2c5364", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
             Maharshi Dayanand University, Ajmer, India
@@ -30,7 +29,7 @@ const Experience = () => {
           className="vertical-timeline-element--education"
           date="2018 - 2021"
           iconStyle={{ background: "#2c5364", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
             SDH Institute, Singapore
@@ -46,7 +45,7 @@ const Experience = () => {
           className="vertical-timeline-element--education"
           date="2022 - 2023"
           iconStyle={{ background: "#2c5364", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">
             Scrimba, E-Learning
@@ -62,7 +61,7 @@ const Experience = () => {
           className="vertical-timeline-element--education"
           date="2022 - 2023"
           iconStyle={{ background: "#2c5364", color: "#fff" }}
-          icon={<SchoolIcon />}
+          icon={<MdSchool />}
         >
           <h3 className="vertical-timeline-element-title">Udemy,E-Learning</h3>
 
@@ -77,7 +76,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           date="2022- 2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">
             Apple Technician Assist
@@ -91,7 +90,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           date="2020 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">
             Front end developer
@@ -103,7 +102,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           date="2020 - present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<MdWork />}
         >
           <h3 className="vertical-timeline-element-title">
             Full Stack Engineer - Twitch
