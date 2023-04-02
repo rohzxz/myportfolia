@@ -1,12 +1,12 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { projectList } from '../helpers/ProjectList'
+import React from "react";
+import { useParams } from "react-router-dom";
+import { projectList } from "../helpers/ProjectList";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import '../styles/projectDisplay.css'
+import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {
-    const { id } = useParams()
-    const project = projectList[id]
+  const { id } = useParams();
+  const project = projectList[id];
   return (
     <div className="project">
       <h1>{project.name}</h1>
@@ -18,6 +18,6 @@ const ProjectDisplay = () => {
       <GitHubIcon />
     </div>
   );
-}
+};
 
-export default ProjectDisplay
+export default ProjectDisplay;
